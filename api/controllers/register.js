@@ -87,7 +87,7 @@ async function loginClient(req, res) {
 
     const resData = {
       message: "Login successful",
-      token: tokenm,
+      token: token,
     };
     return res.status(200).json(resData);
   } catch (error) {
