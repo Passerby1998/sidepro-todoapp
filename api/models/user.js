@@ -1,3 +1,5 @@
+import database from "../database/connection.js";
+
 const createNewClientSQL = `
 CREATE TABLE IF NOT EXISTS users (
 id serial PRIMARY KEY,
